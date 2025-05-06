@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5E4EE39-0673-4F1B-708B-8945EA2ECF24" name="Produto">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<generatorID>136EE01B-CD71-4561-758C-051A10D9AECE</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProdutoID" id="5E4A959E-CEFD-DC50-723E-171D2B0B1CE3">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<generatorID>FCE490F5-B878-C3F5-0A4A-CD78CCE471A0</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DescricaoProduto" id="1CC4E7CE-AAF7-82E2-451E-4AA3970B996F">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<generatorID>C493C521-F9E3-AA99-BD4C-866F5D678D17</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Produto_ID" id="3EDD53D2-235A-26FC-5DF1-CCDD8551129D">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E390B58-7819-3DEA-528F-501163059AAE" name="Produto_PK">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="3EDD53D2-235A-26FC-5DF1-CCDD8551129D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

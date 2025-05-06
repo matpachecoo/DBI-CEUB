@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29FA8A6F-8265-F7F1-DBA1-0FB3B21BDCEB" name="Vendedor">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<generatorID>CA8BF6FA-AA40-53B6-2B6B-B5B81E87A0EC</generatorID>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VendedorID" id="7F1C621B-4202-C637-D46D-733DBFC59957">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<generatorID>D2E79552-82AE-E98A-66A0-F3E9CAD0C783</generatorID>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeCompleto" id="2ADB4F01-4105-C072-A775-FBA2D7850B49">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<generatorID>7E8D3FCF-4B67-B2FC-10B3-82F7CFC364BA</generatorID>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Matricula" id="B0E5A76B-012B-D550-C033-5DEA0AF2AE8A">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<generatorID>BE024F17-2F86-B4BF-0E3D-B83BAC7F6B32</generatorID>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vendedor_ID" id="90D814B2-986E-D93C-498E-804CB372D30E">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B4705C7-BED4-794C-B6BD-D4D0CB431319" name="Vendedor_PK">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="90D814B2-986E-D93C-498E-804CB372D30E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA8BF6FA-AA40-53B6-2B6B-B5B81E87A0EC" name="Vendedor">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-05 23:25:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<engineerTo>
+<item key="C758A143-33D1-974A-2AAF-1690BC5E2F55" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VendedorID" id="D2E79552-82AE-E98A-66A0-F3E9CAD0C783">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-05 23:25:46 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<engineerTo>
+<item key="C758A143-33D1-974A-2AAF-1690BC5E2F55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NomeCompleto" id="7E8D3FCF-4B67-B2FC-10B3-82F7CFC364BA">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-05 23:25:52 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<engineerTo>
+<item key="C758A143-33D1-974A-2AAF-1690BC5E2F55" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Matricula" id="BE024F17-2F86-B4BF-0E3D-B83BAC7F6B32">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-05 23:26:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<engineerTo>
+<item key="C758A143-33D1-974A-2AAF-1690BC5E2F55" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

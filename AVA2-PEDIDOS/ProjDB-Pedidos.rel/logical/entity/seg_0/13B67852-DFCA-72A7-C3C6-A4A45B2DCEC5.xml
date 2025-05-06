@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13B67852-DFCA-72A7-C3C6-A4A45B2DCEC5" name="Pedido">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-05 23:19:59 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<engineerTo>
+<item key="C758A143-33D1-974A-2AAF-1690BC5E2F55" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PedidoID" id="9E263FAD-6B7B-34F3-D858-7F8F6338FB74">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-05 23:21:55 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<engineerTo>
+<item key="C758A143-33D1-974A-2AAF-1690BC5E2F55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataHora" id="E6012088-49AE-D379-B98C-46FE53CBFE80">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-05 23:22:10 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<engineerTo>
+<item key="C758A143-33D1-974A-2AAF-1690BC5E2F55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="C63B55BB-F804-3547-60B3-7F1AD1600BCF">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-05 23:22:25 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<engineerTo>
+<item key="C758A143-33D1-974A-2AAF-1690BC5E2F55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ValorTotal" id="7CF03926-47C8-628C-BD2F-D17003B339D8">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-05 23:22:30 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<engineerTo>
+<item key="C758A143-33D1-974A-2AAF-1690BC5E2F55" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

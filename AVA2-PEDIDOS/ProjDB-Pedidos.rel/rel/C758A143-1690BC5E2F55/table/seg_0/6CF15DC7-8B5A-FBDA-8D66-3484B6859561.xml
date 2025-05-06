@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CF15DC7-8B5A-FBDA-8D66-3484B6859561" name="Cliente">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<generatorID>D22B2F92-22A7-3224-C79E-5897F7076097</generatorID>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ClienteID" id="8D9838E9-1366-D1B5-5BA2-A0D921D3DB68">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<generatorID>3029C0D3-3BC2-B11A-97FB-C0C5D8159347</generatorID>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeCompleto" id="BA882119-FF38-5D38-FA0E-A05E37895861">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<generatorID>8A62E434-F926-A186-37C3-7741BF1B2A4B</generatorID>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPF" id="7B3A7318-BC04-B0C7-4706-118B45ED1D53">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<generatorID>88ED74EB-7A19-286D-239B-3600F33B11E8</generatorID>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EnderecoCompleto" id="C1D5271A-B45A-EB55-07E2-42CF11C61BD2">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<generatorID>FE1E2C25-F4CA-847E-41F7-786800B3A9A7</generatorID>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="94A7731F-DB67-765E-CF00-21ABDFB8CE2A">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<generatorID>D73AE2BA-037E-CDF5-0209-547CEEE56196</generatorID>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_ID" id="F5BD3327-0926-35A6-3220-A0C5B691F484">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B71BBAF-E724-0701-433F-09F23C35D44E" name="Cliente_PK">
+<createdBy>matheus.pacheco</createdBy>
+<createdTime>2025-05-06 00:45:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos.rel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F5BD3327-0926-35A6-3220-A0C5B691F484"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
